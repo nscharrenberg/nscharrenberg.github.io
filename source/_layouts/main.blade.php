@@ -1,15 +1,37 @@
 <!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="canonical" href="{{ $page->getUrl() }}">
-        <meta name="description" content="{{ $page->description }}">
-        <title>{{ $page->title }}</title>
-        <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-        <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    </head>
-    <body class="text-gray-900 font-sans antialiased">
-        @yield('body')
+<html lang="{{ isset($page->language) ? $page->language : 'en' }}" class="no-js">
+    @include('_includes.head')
+    <body class="page">
+    <div class="lm-animated-bg"></div>
+
+    <!-- Loading animation -->
+    <div class="preloader">
+        <div class="preloader-animation">
+            <div class="preloader-spinner">
+            </div>
+        </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="nscharrenberg-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+        <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+            @include('_includes.header')
+            <div id="main" class="site-main">
+                <div id="main-content" class="single-page-content">
+                    <div id="primary" class="content-area">
+                        @yield('body')
+                    </div>
+                </div>
+            </div>
+            @include('_includes.footer')
+
+        </div>
+    </div>
+
+    @include('_includes.foot')
     </body>
 </html>

@@ -25,7 +25,7 @@
     }
 
     function d() {
-        150 < r(i).scrollTop() ? r(".lmpixels-scroll-to-top").removeClass("hidden-btn") : r(".lmpixels-scroll-to-top").addClass("hidden-btn")
+        150 < r(i).scrollTop() ? r(".nscharrenberg-scroll-to-top").removeClass("hidden-btn") : r(".nscharrenberg-scroll-to-top").addClass("hidden-btn")
     }
     r(function() {
         r("#contact_form").validator(), r("#contact_form").on("submit", function(e) {
@@ -217,7 +217,7 @@
             0 === r(this).val().length && r(this).parent(".form-group").removeClass("form-group-focus")
         }), r("body").append('<div id="page-ajax-loaded" class="page-portfolio-loaded animated fadeInLeft" style="display: none"><div class="preloader-portfolio"><div class="preloader-animation"><div class="preloader-spinner"></div></div></div></div>'), s(), r(".sidebar-toggle").on("click", function() {
             r("#blog-sidebar").toggleClass("open"), r(this).toggleClass("open")
-        }), r(".lmpixels-scroll-to-top").click(function() {
+        }), r(".nscharrenberg-scroll-to-top").click(function() {
             return r("body,html").animate({
                 scrollTop: 0
             }, 400), !1
