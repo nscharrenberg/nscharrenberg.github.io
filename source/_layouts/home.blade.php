@@ -2,7 +2,6 @@
 
 @section('body')
     <div id="content" class="page-content site-content single-post" role="main">
-        <!-- Home Page Top Part -->
         <div class="row">
             <div class=" col-xs-12 col-sm-12">
                 <div class="home-content">
@@ -28,8 +27,8 @@
                                 <h1>{{ $page->portfolio->first_name }} {{ $page->portfolio->last_name }}</h1>
                                 <p>{{ $page->portfolio->description }}</p>
                                 <div class="home-buttons">
-                                    <a href="#" target="_blank" class="btn btn-primary">Download CV</a>
-                                    <a href="#" target="_self" class="btn btn-secondary">Contact</a>
+                                    <a href="/resume" target="_blank" class="btn btn-primary">Download CV</a>
+                                    <a href="/contact" target="_self" class="btn btn-secondary">Contact</a>
                                 </div>
                             </div>
                         </div>
@@ -37,6 +36,6 @@
                 </div>
             </div>
         </div>
-        <!-- Home Page Top Part -->
+        @yield('content')
     </div>
 @endsection
