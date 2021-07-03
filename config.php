@@ -3,7 +3,7 @@
 return [
     'production' => false,
     'baseUrl' => '',
-    'title' => 'Jigsaw',
-    'description' => 'Website description.',
+    'title' => 'Noah Scharrenberg',
+    'description' => 'My Personal Portfolio & Resume',
     'collections' => [],
 ];
