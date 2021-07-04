@@ -179,6 +179,10 @@ return [
             'path' => 'certificate',
             'sort' => ['order', '-date', 'title', 'subtitle'],
         ],
+        'projects' => [
+            'path' => 'projects',
+            'sort' => ['order', '-start_date', '-until_date', 'title', 'client'],
+        ],
     ],
 
     // helpers
