@@ -139,6 +139,10 @@ return [
             'path' => 'experiences',
             'sort' => ['order', '-start_date', '-until_date', 'company', 'position'],
         ],
+        'educations' => [
+            'path' => 'educations',
+            'sort' => ['order', '-start_date', '-until_date', 'study', 'institute'],
+        ],
     ],
 
     // helpers
