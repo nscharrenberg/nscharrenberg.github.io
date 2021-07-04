@@ -42,6 +42,12 @@
                     </script>
                 @endif
 
+                @if($page->video)
+                        <div class="portfolio-page-video embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="{{ $page->video }}"></iframe>
+                        </div>
+                    @endif
+
                 @yield('content')
             </div>
 

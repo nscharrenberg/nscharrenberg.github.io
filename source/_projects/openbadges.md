@@ -4,7 +4,7 @@ section: content
 title: Blockchain & Open Badges
 client: Fontys University & SURF
 contributors: [Noah, Luuk, Kevin, Mario, Kasper]
-website: 
+website: https://www.google.com
 start_date: 2018-01-01
 until_date: 2018-06-01
 description: A short explanation about the job
@@ -13,6 +13,8 @@ tags: [software_engineering, blockchain, cloud, frontend, backend]
 cover: https://blog.iron.io/wp-content/uploads/2017/11/LinkedIn-Cover.png
 images: [https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242, https://image.shutterstock.com/image-vector/abstract-futuristic-cyberspace-binary-code-260nw-740523562.jpg],
 order: 1
+type: link
+audio: https://soundcloud.com/andersonpaak/cut-em-in-feat-rick-ross
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget est feugiat nisi semper maximus in quis elit. Praesent quis tristique diam, non scelerisque lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam in felis sapien. Nam non iaculis arcu, ullamcorper lobortis tellus. Fusce sit amet suscipit orci. Nulla et enim sem. Curabitur nibh tellus, placerat ut tellus non, condimentum venenatis turpis. Donec vitae tincidunt nulla. Praesent suscipit semper ante sed accumsan. Nulla pellentesque a nibh a ultricies. Duis a eros quis erat pellentesque euismod ut eget quam. Praesent et velit sapien.
