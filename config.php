@@ -136,11 +136,11 @@ return [
     ],
     'collections' => [
         'experiences' => [
-            'path' => 'experiences',
+            'path' => 'experience',
             'sort' => ['order', '-start_date', '-until_date', 'company', 'position'],
         ],
         'educations' => [
-            'path' => 'educations',
+            'path' => 'education',
             'sort' => ['order', '-start_date', '-until_date', 'study', 'institute'],
         ],
     ],
