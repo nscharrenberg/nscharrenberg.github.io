@@ -1,6 +1,6 @@
 @extends('_layouts.main')
 
-@section('body')
+@section('child')
     <div id="content" class="page-content site-content single-post" role="main">
         <div class="row">
             <div class=" col-xs-12 col-sm-12">

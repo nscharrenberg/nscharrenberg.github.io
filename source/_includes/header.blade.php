@@ -14,23 +14,23 @@
         <div class="site-nav mobile-menu-hide">
             <ul class="nscharrenberg-classic-menu site-main-menu">
                 <li class="menu-item current-menu-item">
-                    <a href="index.html">About Me</a>
+                    <a href="{{ url('/') }}">About Me</a>
                 </li>
 
                 <li class="menu-item">
-                    <a href="resume.html">Resume</a>
+                    <a href="{{ url('/resume') }}">Resume</a>
                 </li>
 
                 <li class="menu-item">
-                    <a href="projects.html">Portfolio</a>
+                    <a href="{{ url('/projects') }}">Portfolio</a>
                 </li>
 
                 <li class="menu-item">
-                    <a href="blog.html">Blog</a>
+                    <a href="{{ url('/blog') }}">Blog</a>
                 </li>
 
                 <li class="menu-item">
-                    <a href="contact.html">Contact</a>
+                    <a href="{{ url('/contact') }}">Contact</a>
                 </li>
             </ul>
         </div>

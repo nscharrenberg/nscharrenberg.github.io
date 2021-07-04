@@ -135,5 +135,14 @@ return [
         ]
     ],
     'collections' => [
+        'experiences' => [
+            'path' => 'experiences',
+            'sort' => ['order', '-start_date', '-until_date', 'company', 'position'],
+        ],
     ],
+
+    // helpers
+    'getDate' => function ($page, $field = null) {
+        return Datetime::createFromFormat('U', is_null($field) ? $page->date : $page[$field]);
+    },
 ];
