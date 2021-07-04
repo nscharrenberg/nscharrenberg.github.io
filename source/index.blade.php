@@ -79,4 +79,31 @@
         </div>
     </div>
     @endif
+
+    @if(count($page->portfolio->facts) > 0 && !$page->site->hidden->facts)
+        <!-- Fun Facts -->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <div class="block-title">
+                    <h2>Fun Facts</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach($page->portfolio->facts as $fact)
+                <div class="col-xs-12 col-sm-3">
+                    <div class="lm-info-block gray-default">
+                        <i class="{{ $fact->icon_class }}"></i>
+                        <h4>{{ $fact->title }}</h4>
+                        <span class="lm-info-block-value">{{ $fact->value }}</span>
+                        <span class="lm-info-block-text">{{ $fact->text }}</span>
+                    </div>
+                </div>
+            @endforeach
+        </div>
+        <!-- /Fun Facts -->
+
+        <div class="p-40"></div>
+    @endif
 @endsection

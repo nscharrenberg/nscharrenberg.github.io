@@ -21,6 +21,14 @@ return [
             'github' => 'nscharrenberg',
             'website' => 'https://nscharrenberg.nl'
         ],
+        'facts' => [
+            [
+                'icon_class' => 'lnr lnr-smile',
+                'title' => 'Happy Clients',
+                'value' => '13',
+                'text' => ''
+            ]
+        ]
     ],
     'site' => [
         'footer_text' => 'Made with love',
@@ -28,6 +36,7 @@ return [
             'what_i_do' => false,
             'testimonials' => false,
             'clients' => false,
+            'facts' => false,
         ],
         'what_i_do' => [
             '1' => [
