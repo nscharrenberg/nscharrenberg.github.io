@@ -46,6 +46,38 @@ return [
                 'value' => '16',
                 'text' => 'years'
             ],
+        ],
+        'skills' => [
+            'design_skills' => [
+                'title' => 'Design Skills',
+                'percentages' => [
+                    [
+                        'title' => 'UX Design',
+                        'value' => 95
+                    ],
+                    [
+                        'title' => 'Print Design',
+                        'value' => 25
+                    ],
+                ]
+            ],
+            'coding_skills' => [
+                'title' => 'Coding Skills',
+                'percentages' => [
+                    [
+                        'title' => 'Java',
+                        'value' => 95
+                    ],
+                    [
+                        'title' => 'C#',
+                        'value' => 45
+                    ],
+                    [
+                        'title' => 'React(-native)',
+                        'value' => 75
+                    ],
+                ]
+            ]
         ]
     ],
     'site' => [
@@ -160,4 +192,7 @@ return [
 
         return Str::endsWith(trimPath($page->getPath()), trimPath($path));
     },
+    'slugify' => function ($page, $value) {
+    return Str::slug($value);
+    }
 ];

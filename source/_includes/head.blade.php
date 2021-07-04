@@ -16,5 +16,6 @@
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}" type="text/css">
 
-    <script src="{{ mix('js/modernizr.custom.js', 'assets/build') }}"></script>
+{{--    <script src="{{ mix('js/modernizr.custom.js', 'assets/build') }}"></script>--}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Shuffle/3.1.1/modernizr.custom.min.js"></script>
 </head>

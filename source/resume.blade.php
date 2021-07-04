@@ -48,6 +48,17 @@ subtitle: 6 years of experience
             @include('_components.certificate', $certificate)
         @endforeach
     </div>
-
     @endif
+
+    <div class="row">
+        <div class=" col-xs-12 col-sm-12 ">
+            <div class="p-40"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        @foreach($page->portfolio->skills as $skill)
+            @include('_components.skill', $skill)
+        @endforeach
+    </div>
 @endsection
