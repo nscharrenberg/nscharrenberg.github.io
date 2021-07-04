@@ -754,6 +754,10 @@ td {
     backface-visibility: hidden
 }
 
+.page-container-no-bottom-padding {
+    padding: 40px 70px 0 !important;
+}
+
 .transform3d {
     -webkit-transform: translate3d(0, 0, 0);
     -moz-transform: translate3d(0, 0, 0);

@@ -92,18 +92,34 @@
 
         <div class="row">
             @foreach($page->portfolio->facts as $fact)
-                <div class="col-xs-12 col-sm-3">
-                    <div class="lm-info-block gray-default">
-                        <i class="{{ $fact->icon_class }}"></i>
-                        <h4>{{ $fact->title }}</h4>
-                        <span class="lm-info-block-value">{{ $fact->value }}</span>
-                        <span class="lm-info-block-text">{{ $fact->text }}</span>
-                    </div>
-                </div>
+                @include('_components.fact', $fact)
             @endforeach
         </div>
         <!-- /Fun Facts -->
 
         <div class="p-40"></div>
+    @endif
+
+    @if(count($page->site->pricing) > 0 && !$page->site->hidden->pricing)
+    <!-- Pricing -->
+    <div class="row">
+        <div class=" col-xs-12 col-sm-12 ">
+            <div class="block-title">
+                <h2>Pricing</h2>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class=" col-xs-12 col-sm-12 ">
+            <div class="fw-pricing clearfix row">
+
+                @foreach($page->site->pricing as $plan)
+                    @include('_components.plan', $plan)
+                @endforeach
+            </div>
+        </div>
+        <!-- /Pricing -->
     @endif
 @endsection

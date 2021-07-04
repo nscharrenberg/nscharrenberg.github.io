@@ -18,7 +18,7 @@
     <!-- /Scroll To Top Button -->
 
     <div class="page-scroll">
-        <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+        <div id="page_container" class="page-container page-container-no-bottom-padding bg-move-effect" data-animation="transition-flip-in-right">
             @include('_includes.header')
             <div id="main" class="site-main">
                 <div id="main-content" class="single-page-content">

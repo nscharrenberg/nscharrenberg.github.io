@@ -27,7 +27,25 @@ return [
                 'title' => 'Happy Clients',
                 'value' => '13',
                 'text' => ''
-            ]
+            ],
+            [
+                'icon_class' => 'lnr lnr-graduation-hat',
+                'title' => 'Studies',
+                'value' => '2',
+                'text' => ''
+            ],
+            [
+                'icon_class' => 'lnr lnr-code',
+                'title' => 'Projects',
+                'value' => '15',
+                'text' => ''
+            ],
+            [
+                'icon_class' => 'lnr lnr-hourglass',
+                'title' => 'Longest Playing Game',
+                'value' => '16',
+                'text' => 'years'
+            ],
         ]
     ],
     'site' => [
@@ -37,6 +55,7 @@ return [
             'testimonials' => false,
             'clients' => false,
             'facts' => false,
+            'pricing' => false,
         ],
         'what_i_do' => [
             '1' => [
@@ -95,6 +114,24 @@ return [
                 'image' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZXBYSP5NQa2BdKsA4QTAYUpCzxJ5kdbnFqQ&usqp=CAU',
                 'link' => '#',
             ],
+        ],
+        'pricing' => [
+            'silver' => [
+                'title' => 'Freelance',
+                'currency' => '&euro;',
+                'price' => '64',
+                'frequency' => 'per month',
+                'highlighted' => true,
+                'services' => [
+                    'Lorem ipsum dolor',
+                    'Pellentesque scelerisque',
+                    'Morbi eu sagittis',
+                ],
+                'button' => [
+                    'text' => 'Contact Now',
+                    'link' => '/contact'
+                ],
+            ]
         ]
     ],
     'collections' => [
