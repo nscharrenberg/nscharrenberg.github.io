@@ -143,6 +143,10 @@ return [
             'path' => 'education',
             'sort' => ['order', '-start_date', '-until_date', 'study', 'institute'],
         ],
+        'certificates' => [
+            'path' => 'certificate',
+            'sort' => ['order', '-date', 'title', 'subtitle'],
+        ],
     ],
 
     // helpers
