@@ -13,23 +13,23 @@
         <!-- Navigation -->
         <div class="site-nav mobile-menu-hide">
             <ul class="nscharrenberg-classic-menu site-main-menu">
-                <li class="menu-item current-menu-item">
+                <li class="menu-item {{ $page->isActive('') ? 'current-menu-item' : '' }}">
                     <a href="{{ url('/') }}">About Me</a>
                 </li>
 
-                <li class="menu-item">
+                <li class="menu-item {{ $page->isActive('/resume') ? 'current-menu-item' : '' }}">
                     <a href="{{ url('/resume') }}">Resume</a>
                 </li>
 
-                <li class="menu-item">
+                <li class="menu-item {{ $page->isActive('/projects') ? 'current-menu-item' : '' }}">
                     <a href="{{ url('/projects') }}">Portfolio</a>
                 </li>
 
-                <li class="menu-item">
+                <li class="menu-item {{ $page->isActive('/blog') ? 'current-menu-item' : '' }}">
                     <a href="{{ url('/blog') }}">Blog</a>
                 </li>
 
-                <li class="menu-item">
+                <li class="menu-item {{ $page->isActive('/contact') ? 'current-menu-item' : '' }}">
                     <a href="{{ url('/contact') }}">Contact</a>
                 </li>
             </ul>

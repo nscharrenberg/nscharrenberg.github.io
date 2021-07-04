@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Str;
 return [
     'production' => false,
     'baseUrl' => '',
@@ -148,5 +148,12 @@ return [
     // helpers
     'getDate' => function ($page, $field = null) {
         return Datetime::createFromFormat('U', is_null($field) ? $page->date : $page[$field]);
+    },
+    'isActive' => function ($page, $path) {
+        if (trimPath($page->getPath()) == '' && trimPath($path) == '') {
+            return true;
+        }
+
+        return Str::endsWith(trimPath($page->getPath()), trimPath($path));
     },
 ];
