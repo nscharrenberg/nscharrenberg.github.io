@@ -184,15 +184,19 @@ return [
             'sort' => ['order', '-start_date', '-until_date', 'title', 'client'],
         ],
         'project_categories' => [
-            'path' => 'project_categories',
+            'path' => '/projects/categories/{filename}',
             'projects' => function ($page, $allProjects) {
                 return $allProjects->filter(function ($project) use ($page) {
                     return $project->tags && in_array($page->getFilename(), $project->tags, true);
                 });
             },
-        ]
+        ],
+        'posts' => [
+            'author' => 'Noah Scharrenberg', // Default author, if not provided in a post
+            'sort' => '-posted_at',
+            'path' => 'blog/{filename}',
+        ],
     ],
-
     // helpers
     'getDate' => function ($page, $field = null) {
         return Datetime::createFromFormat('U', is_null($field) ? $page->date : $page[$field]);
