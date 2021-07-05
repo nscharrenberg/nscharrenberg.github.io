@@ -9,7 +9,7 @@ return [
         'first_name' => 'Noah',
         'last_name' => 'Scharrenberg',
         'picture' => 'https://www.nicepng.com/png/detail/202-2024687_profile-icon-for-the-politics-category-profile-icon.png',
-        'description' => 'Fusce tempor magna mi, non egestas velit ultricies nec. Aenean convallis, risus non condimentum gravida, odio mauris ullamcorper felis, ut venenatis purus ex eu mi. Quisque imperdiet lacinia urna, a placerat sapien pretium eu.',
+        'description' => 'An investment in knowledge always pays the best interest.',
         'roles' => [
             'Software Engineer',
             'Backend Developer',
@@ -23,22 +23,22 @@ return [
         ],
         'facts' => [
             [
-                'icon_class' => 'lnr lnr-smile',
-                'title' => 'Happy Clients',
-                'value' => '13',
-                'text' => ''
-            ],
-            [
                 'icon_class' => 'lnr lnr-graduation-hat',
                 'title' => 'Studies',
                 'value' => '2',
                 'text' => ''
             ],
             [
-                'icon_class' => 'lnr lnr-code',
-                'title' => 'Projects',
-                'value' => '15',
+                'icon_class' => 'lnr lnr-smile',
+                'title' => 'Happy Team members',
+                'value' => '20+',
                 'text' => ''
+            ],
+            [
+                'icon_class' => 'lnr lnr-code',
+                'title' => 'Programming for',
+                'value' => '6+',
+                'text' => 'years (hobby & professional)'
             ],
             [
                 'icon_class' => 'lnr lnr-hourglass',
@@ -48,16 +48,28 @@ return [
             ],
         ],
         'skills' => [
-            'design_skills' => [
-                'title' => 'Design Skills',
+            'engineering_skills' => [
+                'title' => 'Engineering Skills',
                 'percentages' => [
                     [
-                        'title' => 'UX Design',
-                        'value' => 95
+                        'title' => 'Software Design',
+                        'value' => 60
                     ],
                     [
-                        'title' => 'Print Design',
-                        'value' => 25
+                        'title' => 'Software Testing',
+                        'value' => 60
+                    ],
+                    [
+                        'title' => 'Software Analysis',
+                        'value' => 60
+                    ],
+                    [
+                        'title' => 'Cloud Services (Firebase)',
+                        'value' => 60
+                    ],
+                    [
+                        'title' => 'Microservices',
+                        'value' => 50
                     ],
                 ]
             ],
@@ -69,12 +81,49 @@ return [
                         'value' => 95
                     ],
                     [
+                        'title' => 'Javascript',
+                        'value' => 90
+                    ],
+                    [
+                        'title' => 'PHP',
+                        'value' => 70
+                    ],
+                    [
                         'title' => 'C#',
                         'value' => 45
                     ],
                     [
+                        'title' => 'Python',
+                        'value' => 25
+                    ],
+                ]
+            ],
+            'framework_knowledge' => [
+                'title' => 'Framework Knowledge',
+                'percentages' => [
+                    [
                         'title' => 'React(-native)',
+                        'value' => 80
+                    ],
+                    [
+                        'title' => 'Spring Boot',
                         'value' => 75
+                    ],
+                    [
+                        'title' => 'Laravel',
+                        'value' => 75
+                    ],
+                    [
+                        'title' => 'Flask',
+                        'value' => 60
+                    ],
+                    [
+                        'title' => 'asp.net (core)',
+                        'value' => 50
+                    ],
+                    [
+                        'title' => 'Hyperledger Fabric',
+                        'value' => 45
                     ],
                 ]
             ]
@@ -84,34 +133,29 @@ return [
         'footer_text' => 'Made with love',
         'hidden' => [
             'what_i_do' => false,
-            'testimonials' => false,
-            'clients' => false,
+            'testimonials' => true,
+            'clients' => true,
             'facts' => false,
-            'pricing' => false,
+            'pricing' => true,
         ],
         'what_i_do' => [
             '1' => [
                 'software_engineer' => [
                     'title' => 'Software Engineer',
-                    'description' => 'Write text here',
+                    'description' => '',
                     'icon_class' => 'lnr lnr-magic-wand'
                 ],
                 'web_developer' => [
                     'title' => 'Web Developer',
-                    'description' => 'Write text here',
+                    'description' => 'Developing applications using React & React-Native, while doing hobby projects with Vue.',
                     'icon_class' => 'lnr lnr-screen'
                 ],
             ],
             '2' => [
                 'backend_developer' => [
                     'title' => 'Backend Developer',
-                    'description' => 'Write text here',
+                    'description' => 'Developing applications using Spring Boot, Laravel, Flask & Cloud Services such as Firebase.',
                     'icon_class' => 'lnr lnr-cloud',
-                ],
-                'frontend_developer' => [
-                    'title' => 'Front-end Developer',
-                    'description' => 'Write text here',
-                    'icon_class' => 'lnr lnr-smartphone',
                 ],
             ]
         ],
