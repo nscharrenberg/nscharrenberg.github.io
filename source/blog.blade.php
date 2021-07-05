@@ -4,7 +4,7 @@ title: Blog
 subtitle: My Logbook
 pagination:
     collection: posts
-    perPage: 4
+    perPage: 1
 ---
 
 @section('content')
@@ -42,31 +42,21 @@ pagination:
 
 {{--            <a class="btn btn-primary" href="#">See All Posts</a>--}}
             @if ($pagination->pages->count() > 1)
-                <nav class="flex text-base my-8">
-                    @if ($previous = $pagination->previous)
-                        <a
-                                href="{{ $previous }}"
-                                title="Previous Page"
-                                class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3"
-                        >&LeftArrow;</a>
-                    @endif
+                <div class="ajax-page-nav">
+                    <div class="nav-item ajax-page-prev-next">
+                        @if ($previous = $pagination->previous)
+                            <a title="Previous Page" href="{{ url($previous) }}"><i class="lnr lnr-chevron-left"></i></a>
+                        @endif
 
-                    @foreach ($pagination->pages as $pageNumber => $path)
-                        <a
-                                href="{{ $path }}"
-                                title="Go to Page {{ $pageNumber }}"
-                                class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3 {{ $pagination->currentPage == $pageNumber ? 'text-blue-600' : 'text-blue-700' }}"
-                        >{{ $pageNumber }}</a>
-                    @endforeach
+                            @foreach ($pagination->pages as $pageNumber => $path)
+                                <a title="Go to Page {{ $pageNumber }}" href="{{ url($path) }}"><i>{{ $pageNumber }}</i></a>
+                            @endforeach
 
-                    @if ($next = $pagination->next)
-                        <a
-                                href="{{ $next }}"
-                                title="Next Page"
-                                class="bg-gray-200 hover:bg-gray-400 rounded mr-3 px-5 py-3"
-                        >&RightArrow;</a>
-                    @endif
-                </nav>
+                            @if ($next = $pagination->next)
+                                <a title="Next Page" href="{{ url($next) }}"><i class="lnr lnr-chevron-right"></i></a>
+                            @endif
+                    </div>
+                </div>
             @endif
         </div>
     </div>
