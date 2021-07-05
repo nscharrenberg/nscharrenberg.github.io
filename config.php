@@ -183,6 +183,14 @@ return [
             'path' => 'projects',
             'sort' => ['order', '-start_date', '-until_date', 'title', 'client'],
         ],
+        'project_categories' => [
+            'path' => 'project_categories',
+            'projects' => function ($page, $allProjects) {
+                return $allProjects->filter(function ($project) use ($page) {
+                    return $project->tags && in_array($page->getFilename(), $project->tags, true);
+                });
+            },
+        ]
     ],
 
     // helpers

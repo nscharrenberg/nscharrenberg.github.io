@@ -14,5 +14,5 @@ cover: https://blog.iron.io/wp-content/uploads/2017/11/LinkedIn-Cover.png
 images: [],
 order: 2
 type: video
-video: https://youtu.be/-OqrcUvrbRY
+video: https://www.youtube.com/embed/KNkMIjjfhcI
 ---

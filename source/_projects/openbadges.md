@@ -13,7 +13,7 @@ tags: [software_engineering, blockchain, cloud, frontend, backend]
 cover: https://blog.iron.io/wp-content/uploads/2017/11/LinkedIn-Cover.png
 images: [https://media.istockphoto.com/photos/binary-code-background-picture-id1046046242, https://image.shutterstock.com/image-vector/abstract-futuristic-cyberspace-binary-code-260nw-740523562.jpg],
 order: 1
-type: link
+type: article
 audio: https://soundcloud.com/andersonpaak/cut-em-in-feat-rick-ross
 ---
 
