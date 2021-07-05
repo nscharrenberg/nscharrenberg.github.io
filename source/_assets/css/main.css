@@ -5496,6 +5496,8 @@ a.post-thumbnail:hover {
     margin-top: 15px
 }
 
+.email_obf { unicode-bidi: bidi-override; direction: rtl; }
+
 @media screen and (min-width:768px) {
     .home-content.third-style .inner-text-block .hp-text-block {
         -webkit-box-shadow: 0 0 25px 0 rgba(0, 0, 0, .11);

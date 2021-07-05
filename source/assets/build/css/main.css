@@ -4461,6 +4461,7 @@ a.post-thumbnail:hover {
 .home-content.third-style .start-page-content .page-content .download-resume {
     margin-top: 15px
 }
+.email_obf { unicode-bidi: bidi-override; direction: rtl; }
 @media screen and (min-width:768px) {
     .home-content.third-style .inner-text-block .hp-text-block {
         box-shadow: 0 0 25px 0 rgba(0, 0, 0, .11)
