@@ -8,7 +8,7 @@ return [
     'portfolio' => [
         'first_name' => 'Noah',
         'last_name' => 'Scharrenberg',
-        'picture' => 'https://www.nicepng.com/png/detail/202-2024687_profile-icon-for-the-politics-category-profile-icon.png',
+        'picture' => 'assets/images/profile.jpeg',
         'description' => 'An investment in knowledge always pays the best interest.',
         'roles' => [
             'Software Engineer',

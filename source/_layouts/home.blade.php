@@ -27,7 +27,7 @@
                                 <h1>{{ $page->portfolio->first_name }} {{ $page->portfolio->last_name }}</h1>
                                 <p>{{ $page->portfolio->description }}</p>
                                 <div class="home-buttons">
-                                    <a href="/resume" target="_blank" class="btn btn-primary">Download CV</a>
+                                    <a href="/resume" target="_blank" class="btn btn-primary">View CV</a>
                                     <a href="/contact" target="_self" class="btn btn-secondary">Contact</a>
                                 </div>
                             </div>

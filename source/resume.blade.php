@@ -1,7 +1,7 @@
 ---
 extends: _layouts.page
 title: Resume
-subtitle: 6 years of experience
+subtitle: 5+ years of experience
 ---
 
 @section('content')
@@ -38,7 +38,7 @@ subtitle: 6 years of experience
             <div class="p-20"></div>
 
             <div class="block-title">
-                <h2>Certificates</h2>
+                <h2>Certificates & Degrees</h2>
             </div>
         </div>
     </div>

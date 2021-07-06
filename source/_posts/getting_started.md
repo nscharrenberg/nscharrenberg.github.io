@@ -1,14 +1,14 @@
 ---
 extends: _layouts.page
 section: content
-title: Blockchain & Open Badges
-posted_at: 2018-06-01
-description: A short explanation about the job
-cover: https://blog.iron.io/wp-content/uploads/2017/11/LinkedIn-Cover.png
+title: Static Site Workshop
+posted_at: 2021-07-01
+description: Create your own online portfolio!
+cover: https://camo.githubusercontent.com/881340bcf6fb402410fc7fe0f6f4339c5bd80d377ee7b38743211407a1b8f291/68747470733a2f2f6173736574732e7374617274626f6f7473747261702e636f6d2f696d672f73637265656e73686f74732f7468656d65732f726573756d652e706e67
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eget est feugiat nisi semper maximus in quis elit. Praesent quis tristique diam, non scelerisque lorem. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam in felis sapien. Nam non iaculis arcu, ullamcorper lobortis tellus. Fusce sit amet suscipit orci. Nulla et enim sem. Curabitur nibh tellus, placerat ut tellus non, condimentum venenatis turpis. Donec vitae tincidunt nulla. Praesent suscipit semper ante sed accumsan. Nulla pellentesque a nibh a ultricies. Duis a eros quis erat pellentesque euismod ut eget quam. Praesent et velit sapien.
+On the 15th of February 2021, the MSV Incognito hackers IT Team gave a workshop for creating your own personal static website using Jekyll.
+During this workshop I took lead in explaining the basics on setting-up your website using a template and deploying it to github pages, but also a more in-depth explanation to working with templates and styling.
 
-Sed tristique sodales ante efficitur gravida. Curabitur aliquam diam quis ante dignissim, maximus laoreet nulla suscipit. Sed pharetra convallis nisi, sed rhoncus arcu tristique id. Integer nec ex gravida lacus ullamcorper maximus ac a metus. Duis consequat, mauris in condimentum tempor, ante tellus congue turpis, fermentum aliquam lectus nisl vel ipsum. Etiam in dapibus lacus. Vestibulum rhoncus nisl eget ultricies fringilla. Phasellus viverra ex nec dui posuere, vitae rutrum erat tempus. Cras interdum dui et diam tempus egestas. Suspendisse feugiat arcu quis tortor faucibus sodales. Pellentesque id justo maximus, fermentum nisl sed, convallis nisi. Nunc vel urna tristique, malesuada metus ac, finibus libero. Nulla facilisi.
+We made the repository and "Basic" workshop recording available on github: [workshop repository & recording](https://github.com/msvincognito/static-site-workshop)
 
-Interdum et malesuada fames ac ante ipsum primis in faucibus. In mi sem, ultricies eget faucibus nec, malesuada at velit. Vivamus ut placerat ex. Donec laoreet imperdiet dui, vitae volutpat nisi tincidunt quis. Nullam sit amet tempus magna. Nam nisi arcu, vehicula ac enim luctus, euismod iaculis nibh. Etiam imperdiet malesuada diam id vulputate. Praesent vulputate faucibus erat at pretium. Aliquam luctus, sapien eu condimentum blandit, neque massa ornare lacus, quis maximus velit turpis in enim. Vivamus odio arcu, tincidunt ac magna at, iaculis vehicula libero. Vivamus sem neque, convallis quis nulla at, venenatis lobortis felis. Phasellus in pulvinar diam.
