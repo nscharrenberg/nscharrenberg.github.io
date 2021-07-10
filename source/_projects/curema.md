@@ -10,13 +10,15 @@ until_date: 2018-01-20
 description: Curema is an open source customer relationship management system, developed to bring free alternatives to the already existing mostly expensive enterprise CRM systems.
 technologies: [PHP, Laravel, Bootstrap, HTML, CSS, JS, Illustrator, Indesign, Photoshop]
 tags: [software_engineering, backend, frontend, branding]
-cover: https://i2.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/Logo-wordmark-dark-blue.png
+cover: ../assets/images/projects/curema/logo.png
 images: [
-https://i2.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/Logo-wordmark-dark-blue.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/tickets.png,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/my-contract.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/my-invoice.png,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/my-tickets.png
+../assets/images/projects/curema/logo.png,
+../assets/images/projects/curema/customers.png,
+../assets/images/projects/curema/employees.png,
+../assets/images/projects/curema/my-contract.png,
+../assets/images/projects/curema/my-invoice.png,
+../assets/images/projects/curema/my-tickets.png,
+../assets/images/projects/curema/tickets.png,
 ]
 order: 95
 type: article

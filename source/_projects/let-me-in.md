@@ -10,11 +10,14 @@ until_date: 2016-11-01
 description: Creating a physical game to spread awareness to hacking in a more playful way.
 technologies: [C, C#, jQuery, Java, CSS]
 tags: [software_engineering, frontend, backend, hardware]
-cover: https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/Let-Me-In.png
+cover: ../assets/images/projects/letmein/Let-Me-In.png
 images: [
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/Let-Me-In.png,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/castle.jpeg,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/Canvas-Business-Model-A3.png
+../assets/images/projects/letmein/Let-Me-In.png,
+../assets/images/projects/letmein/castle.jpeg,
+../assets/images/projects/letmein/wires.jpeg,
+../assets/images/projects/letmein/first-screen.png,
+../assets/images/projects/letmein/second-screen.png,
+../assets/images/projects/letmein/Canvas-Business-Model-A3.png,
 ]
 order: 97
 type: article

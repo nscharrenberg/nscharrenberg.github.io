@@ -10,12 +10,18 @@ until_date: 2017-02-01
 description: Creating a Caretaking System as a CRM & Scheduling app.
 technologies: [C#, ASP.net, jquery, Bootstrap, SQL, Sockets]
 tags: [software_engineering, frontend, backend]
-cover: https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2017/12/zs_afspraken1.png
+cover: ../assets/images/projects/caresystem/zs_afspraken1.png
 images: [
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2017/12/zs_afspraken1.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2017/12/zs_registratie.png,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2017/12/zs_vragen2.png,
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2017/12/zs_vragen2.png
+../assets/images/projects/caresystem/zs_afspraken1.png,
+../assets/images/projects/caresystem/zs_afspraken2.png,
+../assets/images/projects/caresystem/zs_chat1.png,
+../assets/images/projects/caresystem/zs_chat2.png,
+../assets/images/projects/caresystem/zs_recensie1.png,
+../assets/images/projects/caresystem/zs_recensie2.png,
+../assets/images/projects/caresystem/zs_registratie.png,
+../assets/images/projects/caresystem/zs_vragen1.png,
+../assets/images/projects/caresystem/zs_vragen2.png,
+../assets/images/projects/caresystem/zs_vragen3.png,
 ]
 order: 99
 type: article

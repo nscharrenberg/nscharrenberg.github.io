@@ -10,12 +10,15 @@ until_date: 2017-02-01
 description: Creating an affordable logistics robot for "small-scale" warehouses
 technologies: [C, C#, Illustrator, InDesign]
 tags: [software_engineering, frontend, backend, hardware, branding]
-cover: https://i2.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/bestellingen1.png
+cover: ../assets/images/projects/barry/bestellingen1.png
 images: [
-https://i2.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/bestellingen1.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/magazijn1.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/menu1.png,
-https://i1.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/magazijn1.png
+../assets/images/projects/barry/poster1.png,
+../assets/images/projects/barry/poster2.jpg,
+../assets/images/projects/barry/logo.png,
+../assets/images/projects/barry/bestellingen1.png,
+../assets/images/projects/barry/magazijn1.png,
+../assets/images/projects/barry/product.png,
+../assets/images/projects/barry/menu1.png,
 ]
 order: 98
 type: article
@@ -29,3 +32,6 @@ The software and marketing were a great success, but the hardware prototype unfo
 Software written by Noah Scharrenberg & Niels Osnabrugge was developed to make a flexible system, where you are able to setup your own warehouse, assign products to certain brackets and command Barry to pick it up and deliver it at it’s starting point.
 
 Marketing was made by Tim van Engelen, Jesper Holm & Noah Scharrenberg in an attempt to balance our the mistakes made with the Hardware. Making the actual product look better, and having Barry the actual Robot more like a marketing tool.
+
+
+[![Barry the Robot](https://i.ytimg.com/an_webp/Ef_xeS3zee8/mqdefault_6s.webp?du=3000&sqp=CL_4pYcG&rs=AOn4CLBV3tXEgOKjh4_7vKogdU1JFBwaNA)](https://www.youtube.com/watch?v=Ef_xeS3zee8)

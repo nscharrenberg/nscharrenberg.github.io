@@ -44,3 +44,7 @@ Het originele concept is bedacht door de studenten:
 - Davey Hurkmans
 - Vincent Venhuizen
 - Geert Boer
+
+[![Glow Video 1](https://i.ytimg.com/an_webp/KNkMIjjfhcI/mqdefault_6s.webp?du=3000&sqp=CPTrpYcG&rs=AOn4CLDgNY5U0efFiBK-D1u-u7CWN9rx9g)](https://www.youtube.com/watch?v=KNkMIjjfhcI)
+[![Glow Video 2](https://i.ytimg.com/an_webp/C89FyGgkbp0/mqdefault_6s.webp?du=3000&sqp=CK_1pYcG&rs=AOn4CLCLrkNOBpln0jDHsHr2NJSu7VV7RA)](https://www.youtube.com/watch?v=C89FyGgkbp0)
+[![Dutch Design Week](https://i.ytimg.com/vi/cEiwGrHMerE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBTd6XEcA1k_IgejDO41mg_rykzCg)](https://www.youtube.com/watch?v=cEiwGrHMerE)

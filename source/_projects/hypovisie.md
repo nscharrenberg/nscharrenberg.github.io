@@ -10,9 +10,9 @@ until_date: 2018-01-20
 description: Hypovisie CRM is a system developed to manage customer relations and leads.
 technologies: [PHP, Laravel, Bootstrap, HTML, CSS, JS]
 tags: [software_engineering, backend, frontend, branding]
-cover: https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/hypovisie.png
+cover: ../assets/images/projects/hypovisie/hypovisie.png
 images: [
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/hypovisie.png,
+../assets/images/projects/hypovisie/hypovisie.png,
 ]
 order: 95
 type: article

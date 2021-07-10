@@ -10,9 +10,9 @@ until_date: 2018-01-20
 description: Comboman is a multiplayer platform fighting game.
 technologies: [Java, SOAP, libGDX]
 tags: [software_engineering, backend]
-cover: https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/img.png
+cover: ../assets/images/projects/comboman/img.png
 images: [
-https://i0.wp.com/nscharrenberg.nl/wp-content/uploads/2018/08/img.png,
+../assets/images/projects/comboman/img.png,
 ]
 order: 96
 type: article
@@ -27,3 +27,4 @@ Comboman is a java based game running on a server using RMI (Java Remote Method 
 - Unit tests
 - Additional help such as fixing issues, bugs and/or glitches.
 - Attack and defense logic including damage and HP calculations.
+- Remote Method Invocation Logic (multiplayer)

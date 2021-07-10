@@ -17,3 +17,5 @@ images: [
 order: 99
 type: article
 ---
+
+A hobby project to learn Vue.JS for which I retrieved information from a cryptocurrency stockmarket API, to display the latest information on cryptocurrencies.
